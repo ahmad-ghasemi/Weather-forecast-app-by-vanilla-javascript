@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="./assets/styels/style.css">
+  <script src="./assets/script/main.js" defer></script>
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- city and Search bar -->
+    <div class="container__search-city">
+      <h1 id="city">Select your location ...</h1>
+      <div class="search">
+        <input type="text" class="input" id="input" placeholder="Search City ...">
+        <button class="btn" id="btn">
+          <span class="material-symbols-sharp">search<span>
+        </button>
+      </div>
+    </div>
+    <!-- date-time-humidity-wind section -->
+    <div class="container__date-time">
+      <div class="date-time">
+        <p class="date" id="date"> </p>
+        <p class="time" id="discription">Today is weather ...</p>
+      </div>
+      <div class="humidity-wind">
+        <p class="humidity" id="humidity">Humidity : <span>-</span></p>
+        <p class="wind" id="wind">Wind Speed : <span>... m/s</span></p>
+      </div>
+    </div>
+    <!-- Today weather -->
+    <div class="container__today">
+      <img id="weekday-icon1" src="./assets/images/loading.png" alt="">
+      <div class="container__today-inner">
+        <h3 class="day" id="day0">--</h3>
+        <h2 class="degree" id="today-degree0">--<span>°</span>C</h2>
+      </div>
+    </div>
+    <!-- Week Days -->
+    <div class="container__week-days">
+
+      <div class="container__week-day">
+        <img id="weekday-icon2" src="./assets/images/loading.png" alt="">
+        <h3 class="day" id="day1">--</h3>
+        <h4 class="degree" id="day-degree1">--<span>°</span>C</h4>
+      </div>
+
+      <div class="container__week-day">
+        <img id="weekday-icon3" src="./assets/images/loading.png" alt="">
+        <h3 class="day" id="day2">--</h3>
+        <h4 class="degree" id="day-degree2">--<span>°</span>C</h4>
+      </div>
+
+      <div class="container__week-day">
+        <img id="weekday-icon4" src="./assets/images/loading.png" alt="">
+        <h3 class="day" id="day3">--</h3>
+        <h4 class="degree" id="day-degree3">--<span>°</span>C</h4>
+      </div>
+
+      <div class="container__week-day">
+        <img id="weekday-icon5" src="./assets/images/loading.png" alt="">
+        <h3 class="day" id="day4">--</h3>
+        <h4 class="degree" id="day-degree4">--<span>°</span>C</h4>
+      </div>
+
+      <div class="container__week-day">
+        <img id="weekday-icon6" src="./assets/images/loading.png" alt="">
+        <h3 class="day" id="day5">--</h3>
+        <h4 class="degree" id="day-degree5">--<span>°</span>C</h4>
+      </div>
+
+      <div class="container__week-day">
+        <img id="weekday-icon7" src="./assets/images/loading.png" alt="">
+        <h3 class="day" id="day6">--</h3>
+        <h4 class="degree" id="day-degree6">--<span>°</span>C</h4>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
