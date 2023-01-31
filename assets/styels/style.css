@@ -211,6 +211,7 @@ h1 {
     margin-top: 1rem;
     width: 3vw;
     height: 5vh;
+    object-fit: contain;
   }
 
   .container__week-days .degree {
